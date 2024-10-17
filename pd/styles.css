@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Ciemnoszare tło */
+    color: #f0f0f0; /* Jasny kolor tekstu */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-image img {
+    width: 50vw; /* Zajmuje pół szerokości okna */
+    height: auto;
+}
+
+.right-collage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    gap: 10px;
+}
+
+.collage-item img {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+}
+
+.bottom-section {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bottom-image img {
+    width: 50vw;
+    height: auto;
+    max-width: 500px; /* Maksymalna szerokość obrazka */
+    margin-right: 20px;
+}
+
+.bottom-image p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f0f0f0; /* Jasny kolor tekstu dla ciemnego tła */
+    margin-left: 10px;
+    width: 30%;
+    text-align: right;
+    line-height: 1.5;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
